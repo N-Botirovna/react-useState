@@ -1,3 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background-color: #206FAA;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+  body #root {
+    width: 40%;
+    margin: auto;
+    margin-top: 200px;
+    background-color: #FEFEFE;
+    border-radius: 10px;
+    padding: 30px 20px;
+  }
+  body #root .inputDiv input {
+    border: none;
+    border-bottom: 2px solid #DADADA;
+    padding-bottom: 9px;
+    margin-right: 13px;
+    font-size: 23px;
+    outline: none;
+  }
+  body #root .inputDiv input::-moz-placeholder {
+    color: #797879;
+  }
+  body #root .inputDiv input:-ms-input-placeholder {
+    color: #797879;
+  }
+  body #root .inputDiv input::placeholder {
+    color: #797879;
+  }
+  body #root .inputDiv label {
+    background-color: #EDEDED;
+    border: transparent;
+    padding: 9px 5px;
+    font-size: 25px;
+    color: rgb(51, 49, 49);
+    border-radius: 7px;
+  }
+  body #root button {
+    margin-top: 40px;
+    margin-right: 40px;
+    font-size: 28px;
+    border: none;
+    background: transparent;
+    color: #C1C1C1;
+  }
+  body #root button:active {
+    color: black;
+  }
+  body #root p {
+    font-size: 22px;
+    color: black;
+  }
